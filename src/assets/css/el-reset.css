@@ -1,0 +1,17 @@
+.el-container {
+    height: 100%;
+}
+.home-page .el-submenu__title {
+    font-size: 20px;
+    color: rgb(107, 110, 129);
+}
+.home-page .el-menu-item{
+    font-size: 20px;
+    color: rgb(107, 110, 129);
+}
+.el-menu-item-group{
+    background-color: rgb(210, 221, 196);
+}
+.home-page .el-menu-item-group__title {
+    display: none;
+}

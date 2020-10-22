@@ -1,0 +1,32 @@
+/* 全局样式 清除一些默认样式 */
+
+input {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "myfont";
+}
+/* 设定容器高度占满100% */
+#app, .home, .home .el-container {
+    height: 100%;
+}
+@font-face {
+    font-family: "myfont";
+    src: url(../../../public/fonts/font733/AaPrincessPeach.ttf);
+  }
